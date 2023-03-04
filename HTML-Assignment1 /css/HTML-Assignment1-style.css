@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital@1&display=swap');
+html {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5;
+    box-sizing:inherit;
+    color: #2f2f37;
+  }
+
+#site-name a, #site-name a:link{
+    color:#e1e1e1;
+    text-decoration: none;
+}
+#main-navigation a, #main-navigation a:link{
+    color:#e1e1e1;
+    text-decoration: none;
+}
+#main-navigation a:visited{
+    color:#fbfafe;
+}
+#main-navigation a:hover{
+    color:rgba(255, 85, 0, 0.832);
+    background-color: #fbfafe;
+}
+#main-navigation a:active{
+    color:#fcae46;
+}
+
+h2 {
+    font-family:'Lobster', cursive;
+    color:#fe6e2d;
+    letter-spacing: 2px;
+}
+
+.flex-item,
+.flex-item-inner {
+  background-color:#fbfafe; 
+}
+
+
+#header.flex-container { 
+    display:flex;
+    align-items:center;
+}
+#header, #footer{
+ background-color:#fe6e2d;
+ color:white;
+ padding: 0.5em 2em;
+}
+
+
+#main-navigation li {
+    display:inline-block;
+    margin-right:2em;
+  }
+
+.flex-container-row {
+    display:flex;
+    flex-flow:row wrap;
+    gap:1em;
+}
+
+.flex-item-inner {
+    padding:2em;
+    flex:1 0 0;
+}
+#main{
+    flex:3 0 0;
+}
+
+#main h2{
+    padding-top: 2em;
+}
+.flex-container{
+    display:flex;
+    flex: 0 0 300px;
+
+} 
+    
+fieldset{
+    border-color:#fe6e2d;
+    border-width: 2px;
+    border-style:solid;
+    color:#fe6e2d;
+}
+
+a, a:link{
+    color:#fe6e2d;
+}
+a:visited{
+    color:#6d6d74;
+}
+a:hover{
+    color:rgba(255, 85, 0, 0.832);
+}
+a:active{
+    color:#fcae46;
+}
+
+form {
+    background-color:#fcae46;
+    padding:1em;
+    
+}
+
+#message{
+padding: 2em 5em; 
+border-radius:10px;
+}
+
+button{
+    padding:1em 2em;
+    border-radius:10px;
+    background-color:#fe6e2d;
+    color:aliceblue;
+}
+button:hover{
+    background-color:chocolate;
+}
+
+
+
+
